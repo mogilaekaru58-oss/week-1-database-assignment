@@ -28,7 +28,8 @@ CREATE TABLE teachers (
 -- Create Subjects table
 CREATE TABLE subjects (
     subject_id INT PRIMARY KEY AUTO_INCREMENT,
-    subject_name VARCHAR(100) NOT NUL
+    subject_name VARCHAR(100) NOT NULL
+);
 -- Display all tables
 SHOW TABLES;
 
@@ -38,5 +39,9 @@ DESCRIBE students;
 -- Display the structure of the Teachers table
 DESCRIBE teachers;
 -- Display the structure of the Subjects table
-DESCRIBE subjects;0
+DESCRIBE subjects;
+
+
+
+
 
